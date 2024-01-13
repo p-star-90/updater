@@ -10,7 +10,7 @@ foreach ($directory as $file) {
     $mods[] = $file;
 }
 foreach ($mods as $mod) {
-    $json['mod'][] = [
+    $json['mods'][] = [
         'name' => $mod,
         'downloadURL' => MODS_URL . '/' . $mod,
         'sha1' => sha1_file(MODS_FOLDER . '/' . $mod),
