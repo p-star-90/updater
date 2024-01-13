@@ -1,5 +1,5 @@
 <?php
-const EXTFILES_URL = 'http://mclife-rp.com/extfiles/mods/mods';
+const EXTFILES_URL = 'https://p-star-90.github.io/updater/mods';
 const EXTFILES_FOLDER = __DIR__ . '/extfiles';
 $json = [
     'extfiles' => []
